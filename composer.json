@@ -1,0 +1,34 @@
+{
+    "name": "rekalogika/rekapager-symfony-bridge",
+    "description": "Common classes for Symfony integration.",
+    "homepage": "https://rekalogika.dev/rekapager",
+    "keywords": [
+        "symfony",
+        "api-platform",
+        "pagination",
+        "rekapager",
+        "pager",
+        "keyset-pagination",
+        "offset-pagination"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Priyadi Iman Nurcahyo",
+            "email": "priyadi@rekalogika.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rekalogika\\Rekapager\\Symfony\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "rekalogika/rekapager-contracts": "^0.8",
+        "rekalogika/rekapager-core": "^0.8",
+        "symfony/config": "^6.4 || ^7.0",
+        "symfony/dependency-injection": "^6.4 || ^7.0"
+    }
+}
